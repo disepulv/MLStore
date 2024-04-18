@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ProductSearchView: View {
+    @EnvironmentObject private var navigationState: NavigationState
     @State var searchText: String = ""
     
     var body: some View {
@@ -16,6 +17,7 @@ struct ProductSearchView: View {
                 .multilineTextAlignment(.center)
             Button("Search") {
                 print("Searching...")
+                navigationState.routes.append(.products)
             }
         }
         .padding()

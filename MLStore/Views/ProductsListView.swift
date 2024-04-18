@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct ProductsListView: View {
+    @EnvironmentObject private var navigationState: NavigationState
+
     var body: some View {
         Text("Products list view!")
+        Button("Detail") {
+            print("loading detail...")
+            navigationState.routes.append(.detail)
+        }
     }
 }
 
