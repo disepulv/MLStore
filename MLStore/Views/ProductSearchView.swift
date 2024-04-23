@@ -17,6 +17,7 @@ struct ProductSearchView: View {
             TextField("Product name or description", text: $query)
                 .multilineTextAlignment(.center)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
+                .accessibility(identifier: "searchField")
 
             Button(action: {
                 navigationState.routes.append(.products(query: query))
@@ -27,6 +28,7 @@ struct ProductSearchView: View {
             })
             .disabled(disabledButton)
             .buttonStyle(.borderedProminent)
+            .accessibility(identifier: "searchButton")
         }
         .onChange(of: query, {
             disabledButton = query.count == 0

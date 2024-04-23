@@ -27,6 +27,9 @@
 		BFC8D37C2BD815E8006640D8 /* Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D37B2BD815E8006640D8 /* Paging.swift */; };
 		BFC8D37E2BD81AEE006640D8 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D37D2BD81AEE006640D8 /* Sort.swift */; };
 		BFC8D3802BD83F94006640D8 /* products_corrupted_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D37F2BD83F94006640D8 /* products_corrupted_data.json */; };
+		BFC8D3882BD855E9006640D8 /* MLStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3872BD855E9006640D8 /* MLStoreUITests.swift */; };
+		BFC8D38A2BD855E9006640D8 /* MLStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3892BD855E9006640D8 /* MLStoreUITestsLaunchTests.swift */; };
+		BFC8D3912BD85618006640D8 /* SearchViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3902BD85618006640D8 /* SearchViewUITests.swift */; };
 		BFEC41DF2BD17F1D00D0FDAA /* MLStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC41DE2BD17F1D00D0FDAA /* MLStoreApp.swift */; };
 		BFEC41E12BD17F1D00D0FDAA /* ProductSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC41E02BD17F1D00D0FDAA /* ProductSearchView.swift */; };
 		BFEC41E32BD17F1E00D0FDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEC41E22BD17F1E00D0FDAA /* Assets.xcassets */; };
@@ -35,6 +38,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		BFC8D35B2BD7077B006640D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFEC41D32BD17F1D00D0FDAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFEC41DA2BD17F1D00D0FDAA;
+			remoteInfo = MLStore;
+		};
+		BFC8D38B2BD855E9006640D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFEC41D32BD17F1D00D0FDAA /* Project object */;
 			proxyType = 1;
@@ -66,6 +76,10 @@
 		BFC8D37B2BD815E8006640D8 /* Paging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paging.swift; sourceTree = "<group>"; };
 		BFC8D37D2BD81AEE006640D8 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		BFC8D37F2BD83F94006640D8 /* products_corrupted_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products_corrupted_data.json; sourceTree = "<group>"; };
+		BFC8D3852BD855E9006640D8 /* MLStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC8D3872BD855E9006640D8 /* MLStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLStoreUITests.swift; sourceTree = "<group>"; };
+		BFC8D3892BD855E9006640D8 /* MLStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFC8D3902BD85618006640D8 /* SearchViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewUITests.swift; sourceTree = "<group>"; };
 		BFEC41DB2BD17F1D00D0FDAA /* MLStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEC41DE2BD17F1D00D0FDAA /* MLStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLStoreApp.swift; sourceTree = "<group>"; };
 		BFEC41E02BD17F1D00D0FDAA /* ProductSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSearchView.swift; sourceTree = "<group>"; };
@@ -75,6 +89,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFC8D3542BD7077B006640D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC8D3822BD855E9006640D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -174,11 +195,22 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		BFC8D3862BD855E9006640D8 /* MLStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8D3872BD855E9006640D8 /* MLStoreUITests.swift */,
+				BFC8D3892BD855E9006640D8 /* MLStoreUITestsLaunchTests.swift */,
+				BFC8D3902BD85618006640D8 /* SearchViewUITests.swift */,
+			);
+			path = MLStoreUITests;
+			sourceTree = "<group>";
+		};
 		BFEC41D22BD17F1D00D0FDAA = {
 			isa = PBXGroup;
 			children = (
 				BFEC41DD2BD17F1D00D0FDAA /* MLStore */,
 				BFC8D3582BD7077B006640D8 /* MLStoreTests */,
+				BFC8D3862BD855E9006640D8 /* MLStoreUITests */,
 				BFEC41DC2BD17F1D00D0FDAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,6 +220,7 @@
 			children = (
 				BFEC41DB2BD17F1D00D0FDAA /* MLStore.app */,
 				BFC8D3572BD7077B006640D8 /* MLStoreTests.xctest */,
+				BFC8D3852BD855E9006640D8 /* MLStoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,6 +282,24 @@
 			productReference = BFC8D3572BD7077B006640D8 /* MLStoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BFC8D3842BD855E9006640D8 /* MLStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC8D38D2BD855E9006640D8 /* Build configuration list for PBXNativeTarget "MLStoreUITests" */;
+			buildPhases = (
+				BFC8D3812BD855E9006640D8 /* Sources */,
+				BFC8D3822BD855E9006640D8 /* Frameworks */,
+				BFC8D3832BD855E9006640D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC8D38C2BD855E9006640D8 /* PBXTargetDependency */,
+			);
+			name = MLStoreUITests;
+			productName = MLStoreUITests;
+			productReference = BFC8D3852BD855E9006640D8 /* MLStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		BFEC41DA2BD17F1D00D0FDAA /* MLStore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFEC41E92BD17F1E00D0FDAA /* Build configuration list for PBXNativeTarget "MLStore" */;
@@ -280,6 +331,10 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = BFEC41DA2BD17F1D00D0FDAA;
 					};
+					BFC8D3842BD855E9006640D8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BFEC41DA2BD17F1D00D0FDAA;
+					};
 					BFEC41DA2BD17F1D00D0FDAA = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -300,6 +355,7 @@
 			targets = (
 				BFEC41DA2BD17F1D00D0FDAA /* MLStore */,
 				BFC8D3562BD7077B006640D8 /* MLStoreTests */,
+				BFC8D3842BD855E9006640D8 /* MLStoreUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,6 +368,13 @@
 				BFC8D37A2BD8153D006640D8 /* products_zero_items.json in Resources */,
 				BFC8D3802BD83F94006640D8 /* products_corrupted_data.json in Resources */,
 				BFC8D3712BD736FE006640D8 /* products_one_item.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC8D3832BD855E9006640D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +404,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFC8D3812BD855E9006640D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC8D3882BD855E9006640D8 /* MLStoreUITests.swift in Sources */,
+				BFC8D38A2BD855E9006640D8 /* MLStoreUITestsLaunchTests.swift in Sources */,
+				BFC8D3912BD85618006640D8 /* SearchViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFEC41D72BD17F1D00D0FDAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +440,11 @@
 			isa = PBXTargetDependency;
 			target = BFEC41DA2BD17F1D00D0FDAA /* MLStore */;
 			targetProxy = BFC8D35B2BD7077B006640D8 /* PBXContainerItemProxy */;
+		};
+		BFC8D38C2BD855E9006640D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFEC41DA2BD17F1D00D0FDAA /* MLStore */;
+			targetProxy = BFC8D38B2BD855E9006640D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,6 +482,40 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MLStore";
+			};
+			name = Release;
+		};
+		BFC8D38E2BD855E9006640D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72ELCW5WS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegosepulveda.MLStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLStore;
+			};
+			name = Debug;
+		};
+		BFC8D38F2BD855E9006640D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72ELCW5WS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegosepulveda.MLStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLStore;
 			};
 			name = Release;
 		};
@@ -594,6 +706,15 @@
 			buildConfigurations = (
 				BFC8D35E2BD7077B006640D8 /* Debug */,
 				BFC8D35F2BD7077B006640D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC8D38D2BD855E9006640D8 /* Build configuration list for PBXNativeTarget "MLStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC8D38E2BD855E9006640D8 /* Debug */,
+				BFC8D38F2BD855E9006640D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
