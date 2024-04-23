@@ -9,18 +9,30 @@ import SwiftUI
 
 struct ProductSearchView: View {
     @EnvironmentObject private var navigationState: NavigationState
-    @State var searchText: String = ""
+    @State var query: String = ""
+    @State var disabledButton = true
     
     var body: some View {
         VStack {
-            TextField("Product name or description", text: $searchText)
+            TextField("Product name or description", text: $query)
                 .multilineTextAlignment(.center)
-            Button("Search") {
-                print("Searching...")
-                navigationState.routes.append(.products)
-            }
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+
+            Button(action: {
+                navigationState.routes.append(.products(query: query))
+            }, label: {
+                Text("Search")
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 35)
+            })
+            .disabled(disabledButton)
+            .buttonStyle(.borderedProminent)
         }
+        .onChange(of: query, {
+            disabledButton = query.count == 0
+        })
         .padding()
+        .navigationTitle("Search")
     }
 }
 
