@@ -12,9 +12,14 @@
 		BF15F00F2BD1DDCE001E0DA2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F00E2BD1DDCE001E0DA2 /* Product.swift */; };
 		BF15F0122BD1DF5C001E0DA2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F0112BD1DF5C001E0DA2 /* APIService.swift */; };
 		BF15F0152BD2C9CF001E0DA2 /* ProductListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F0142BD2C9CF001E0DA2 /* ProductListCellView.swift */; };
+		BFC8D3522BD6CB97006640D8 /* MLText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3512BD6CB97006640D8 /* MLText.swift */; };
+		BFC8D35A2BD7077B006640D8 /* MLStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3592BD7077B006640D8 /* MLStoreTests.swift */; };
 		BFC8D3622BD707A2006640D8 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */; };
+		BFC8D3642BD70A99006640D8 /* APIServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3632BD70A99006640D8 /* APIServiceTest.swift */; };
 		BFC8D3662BD71084006640D8 /* Installments.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3652BD71084006640D8 /* Installments.swift */; };
 		BFC8D3692BD726D8006640D8 /* ProductsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */; };
+		BFC8D36B2BD72CFA006640D8 /* ProductsListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D36A2BD72CFA006640D8 /* ProductsListViewModelTest.swift */; };
+		BFC8D36E2BD73371006640D8 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D36D2BD73371006640D8 /* MockAPIService.swift */; };
 		BFC8D3712BD736FE006640D8 /* products_one_item.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3702BD736FE006640D8 /* products_one_item.json */; };
 		BFC8D3762BD80922006640D8 /* product_preview.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3752BD80922006640D8 /* product_preview.json */; };
 		BFC8D3782BD812E5006640D8 /* products_preview.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3772BD812E5006640D8 /* products_preview.json */; };
@@ -28,15 +33,32 @@
 		BFEC41E62BD17F1E00D0FDAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEC41E52BD17F1E00D0FDAA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BFC8D35B2BD7077B006640D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFEC41D32BD17F1D00D0FDAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFEC41DA2BD17F1D00D0FDAA;
+			remoteInfo = MLStore;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		BF15F0092BD1D758001E0DA2 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
 		BF15F00B2BD1D7A0001E0DA2 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		BF15F00E2BD1DDCE001E0DA2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		BF15F0112BD1DF5C001E0DA2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BF15F0132BD2C960001E0DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BF15F0142BD2C9CF001E0DA2 /* ProductListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCellView.swift; sourceTree = "<group>"; };
+		BFC8D3512BD6CB97006640D8 /* MLText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLText.swift; sourceTree = "<group>"; };
+		BFC8D3572BD7077B006640D8 /* MLStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC8D3592BD7077B006640D8 /* MLStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLStoreTests.swift; sourceTree = "<group>"; };
 		BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockURLProtocol.swift; path = MLStoreTests/MockURLProtocol.swift; sourceTree = SOURCE_ROOT; };
+		BFC8D3632BD70A99006640D8 /* APIServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTest.swift; sourceTree = "<group>"; };
 		BFC8D3652BD71084006640D8 /* Installments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installments.swift; sourceTree = "<group>"; };
 		BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewModel.swift; sourceTree = "<group>"; };
+		BFC8D36A2BD72CFA006640D8 /* ProductsListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewModelTest.swift; sourceTree = "<group>"; };
+		BFC8D36D2BD73371006640D8 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
 		BFC8D3702BD736FE006640D8 /* products_one_item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products_one_item.json; sourceTree = "<group>"; };
 		BFC8D3752BD80922006640D8 /* product_preview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product_preview.json; sourceTree = "<group>"; };
 		BFC8D3772BD812E5006640D8 /* products_preview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products_preview.json; sourceTree = "<group>"; };
@@ -52,6 +74,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BFC8D3542BD7077B006640D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFEC41D82BD17F1D00D0FDAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,10 +110,31 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		BFC8D3502BD6CB84006640D8 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8D3512BD6CB97006640D8 /* MLText.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		BFC8D3582BD7077B006640D8 /* MLStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8D36F2BD73668006640D8 /* Data */,
+				BFC8D36C2BD72CFF006640D8 /* ViewModel */,
+				BFC8D3602BD70786006640D8 /* Services */,
+				BFC8D3592BD7077B006640D8 /* MLStoreTests.swift */,
+			);
+			path = MLStoreTests;
+			sourceTree = "<group>";
+		};
 		BFC8D3602BD70786006640D8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */,
+				BFC8D3632BD70A99006640D8 /* APIServiceTest.swift */,
+				BFC8D36D2BD73371006640D8 /* MockAPIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -93,6 +143,14 @@
 			isa = PBXGroup;
 			children = (
 				BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFC8D36C2BD72CFF006640D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8D36A2BD72CFA006640D8 /* ProductsListViewModelTest.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -120,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				BFEC41DD2BD17F1D00D0FDAA /* MLStore */,
+				BFC8D3582BD7077B006640D8 /* MLStoreTests */,
 				BFEC41DC2BD17F1D00D0FDAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				BFEC41DB2BD17F1D00D0FDAA /* MLStore.app */,
+				BFC8D3572BD7077B006640D8 /* MLStoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,11 +195,15 @@
 		BFEC41DD2BD17F1D00D0FDAA /* MLStore */ = {
 			isa = PBXGroup;
 			children = (
-				BFEC41EC2BD1834300D0FDAA /* Views */,
-				BFEC41DE2BD17F1D00D0FDAA /* MLStoreApp.swift */,
 				BFEC41E22BD17F1E00D0FDAA /* Assets.xcassets */,
 				BFC8D3502BD6CB84006640D8 /* CustomViews */,
+				BF15F0132BD2C960001E0DA2 /* Info.plist */,
+				BFEC41DE2BD17F1D00D0FDAA /* MLStoreApp.swift */,
+				BF15F00D2BD1DCBE001E0DA2 /* Model */,
 				BFEC41E42BD17F1E00D0FDAA /* Preview Content */,
+				BF15F0102BD1DF43001E0DA2 /* Services */,
+				BFC8D3672BD726AF006640D8 /* ViewModel */,
+				BFEC41EC2BD1834300D0FDAA /* Views */,
 			);
 			path = MLStore;
 			sourceTree = "<group>";
@@ -159,6 +223,7 @@
 				BFEC41E02BD17F1D00D0FDAA /* ProductSearchView.swift */,
 				BF15F0092BD1D758001E0DA2 /* ProductsListView.swift */,
 				BF15F00B2BD1D7A0001E0DA2 /* ProductDetailView.swift */,
+				BF15F0142BD2C9CF001E0DA2 /* ProductListCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +231,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BFC8D3562BD7077B006640D8 /* MLStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC8D35D2BD7077B006640D8 /* Build configuration list for PBXNativeTarget "MLStoreTests" */;
+			buildPhases = (
+				BFC8D3532BD7077B006640D8 /* Sources */,
+				BFC8D3542BD7077B006640D8 /* Frameworks */,
+				BFC8D3552BD7077B006640D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC8D35C2BD7077B006640D8 /* PBXTargetDependency */,
+			);
+			name = MLStoreTests;
+			productName = MLStoreTests;
+			productReference = BFC8D3572BD7077B006640D8 /* MLStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BFEC41DA2BD17F1D00D0FDAA /* MLStore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFEC41E92BD17F1E00D0FDAA /* Build configuration list for PBXNativeTarget "MLStore" */;
@@ -193,6 +276,10 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					BFC8D3562BD7077B006640D8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BFEC41DA2BD17F1D00D0FDAA;
+					};
 					BFEC41DA2BD17F1D00D0FDAA = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -212,6 +299,7 @@
 			projectRoot = "";
 			targets = (
 				BFEC41DA2BD17F1D00D0FDAA /* MLStore */,
+				BFC8D3562BD7077B006640D8 /* MLStoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,7 +329,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BFC8D3532BD7077B006640D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC8D3642BD70A99006640D8 /* APIServiceTest.swift in Sources */,
+				BFC8D36E2BD73371006640D8 /* MockAPIService.swift in Sources */,
+				BFC8D35A2BD7077B006640D8 /* MLStoreTests.swift in Sources */,
 				BFC8D36B2BD72CFA006640D8 /* ProductsListViewModelTest.swift in Sources */,
+				BFC8D3622BD707A2006640D8 /* MockURLProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFEC41D72BD17F1D00D0FDAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,15 +350,63 @@
 				BF15F00F2BD1DDCE001E0DA2 /* Product.swift in Sources */,
 				BFC8D3662BD71084006640D8 /* Installments.swift in Sources */,
 				BFEC41DF2BD17F1D00D0FDAA /* MLStoreApp.swift in Sources */,
+				BFC8D37E2BD81AEE006640D8 /* Sort.swift in Sources */,
+				BF15F0152BD2C9CF001E0DA2 /* ProductListCellView.swift in Sources */,
 				BFC8D3692BD726D8006640D8 /* ProductsListViewModel.swift in Sources */,
+				BFC8D3522BD6CB97006640D8 /* MLText.swift in Sources */,
 				BF15F00A2BD1D758001E0DA2 /* ProductsListView.swift in Sources */,
 				BFC8D37C2BD815E8006640D8 /* Paging.swift in Sources */,
+				BF15F0122BD1DF5C001E0DA2 /* APIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BFC8D35C2BD7077B006640D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFEC41DA2BD17F1D00D0FDAA /* MLStore */;
+			targetProxy = BFC8D35B2BD7077B006640D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		BFC8D35E2BD7077B006640D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72ELCW5WS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegosepulveda.MLStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MLStore";
+			};
+			name = Debug;
+		};
+		BFC8D35F2BD7077B006640D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72ELCW5WS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegosepulveda.MLStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MLStore";
+			};
+			name = Release;
+		};
 		BFEC41E72BD17F1E00D0FDAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -390,6 +537,7 @@
 				DEVELOPMENT_TEAM = C72ELCW5WS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MLStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -419,6 +567,7 @@
 				DEVELOPMENT_TEAM = C72ELCW5WS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MLStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +589,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BFC8D35D2BD7077B006640D8 /* Build configuration list for PBXNativeTarget "MLStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC8D35E2BD7077B006640D8 /* Debug */,
+				BFC8D35F2BD7077B006640D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BFEC41D62BD17F1D00D0FDAA /* Build configuration list for PBXProject "MLStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
