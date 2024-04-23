@@ -13,6 +13,7 @@
 		BF15F0122BD1DF5C001E0DA2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F0112BD1DF5C001E0DA2 /* APIService.swift */; };
 		BFC8D3622BD707A2006640D8 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */; };
 		BFC8D3662BD71084006640D8 /* Installments.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3652BD71084006640D8 /* Installments.swift */; };
+		BFC8D3692BD726D8006640D8 /* ProductsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */; };
 		BFC8D3712BD736FE006640D8 /* products_one_item.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3702BD736FE006640D8 /* products_one_item.json */; };
 		BFC8D3762BD80922006640D8 /* product_preview.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3752BD80922006640D8 /* product_preview.json */; };
 		BFC8D3782BD812E5006640D8 /* products_preview.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3772BD812E5006640D8 /* products_preview.json */; };
@@ -33,6 +34,7 @@
 		BF15F0112BD1DF5C001E0DA2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockURLProtocol.swift; path = MLStoreTests/MockURLProtocol.swift; sourceTree = SOURCE_ROOT; };
 		BFC8D3652BD71084006640D8 /* Installments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installments.swift; sourceTree = "<group>"; };
+		BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewModel.swift; sourceTree = "<group>"; };
 		BFC8D3702BD736FE006640D8 /* products_one_item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products_one_item.json; sourceTree = "<group>"; };
 		BFC8D3752BD80922006640D8 /* product_preview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product_preview.json; sourceTree = "<group>"; };
 		BFC8D3772BD812E5006640D8 /* products_preview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products_preview.json; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 				BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		BFC8D3672BD726AF006640D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		BFC8D36F2BD73668006640D8 /* Data */ = {
@@ -229,6 +239,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+				BFC8D36B2BD72CFA006640D8 /* ProductsListViewModelTest.swift in Sources */,
 		BFEC41D72BD17F1D00D0FDAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,6 +249,7 @@
 				BF15F00F2BD1DDCE001E0DA2 /* Product.swift in Sources */,
 				BFC8D3662BD71084006640D8 /* Installments.swift in Sources */,
 				BFEC41DF2BD17F1D00D0FDAA /* MLStoreApp.swift in Sources */,
+				BFC8D3692BD726D8006640D8 /* ProductsListViewModel.swift in Sources */,
 				BF15F00A2BD1D758001E0DA2 /* ProductsListView.swift in Sources */,
 				BFC8D37C2BD815E8006640D8 /* Paging.swift in Sources */,
 			);
