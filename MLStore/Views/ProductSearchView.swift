@@ -15,8 +15,11 @@ struct ProductSearchView: View {
     var body: some View {
         VStack {
             TextField(Constants.Search.searchLabel, text: $query)
+                .frame(height: 55)
+                .textFieldStyle(PlainTextFieldStyle())
+                .cornerRadius(10)
+                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray))
                 .multilineTextAlignment(.center)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
                 .accessibility(identifier: "searchField")
 
             Button(action: {
@@ -24,7 +27,7 @@ struct ProductSearchView: View {
             }, label: {
                 Text(Constants.Search.searchButton)
                     .frame(maxWidth: .infinity)
-                    .frame(height: 35)
+                    .frame(height: 40)
             })
             .disabled(disabledButton)
             .buttonStyle(.borderedProminent)
