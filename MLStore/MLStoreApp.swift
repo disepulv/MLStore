@@ -10,7 +10,7 @@ import SwiftUI
 enum Route: Hashable {
     case search
     case products
-    case detail
+    case detail(product: Product)
 }
 
 class NavigationState: ObservableObject {
@@ -31,8 +31,8 @@ struct MLStoreApp: App {
                             ProductSearchView()
                         case .products:
                             ProductsListView()
-                        case .detail:
-                            ProductDetailView()
+                        case .detail(let product):
+                            ProductDetailView(product: product)
                         }
                     }
             }
