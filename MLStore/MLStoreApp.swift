@@ -9,7 +9,7 @@ import SwiftUI
 
 enum Route: Hashable {
     case search
-    case products
+    case products(query: String)
     case detail(product: Product)
 }
 
@@ -29,8 +29,8 @@ struct MLStoreApp: App {
                         switch route {
                         case .search:
                             ProductSearchView()
-                        case .products:
-                            ProductsListView()
+                        case .products(let query):
+                            ProductsListView(productsListViewModel: ProductsListViewModel(query: query))
                         case .detail(let product):
                             ProductDetailView(product: product)
                         }
