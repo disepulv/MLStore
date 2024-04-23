@@ -11,6 +11,7 @@
 		BF15F00C2BD1D7A0001E0DA2 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F00B2BD1D7A0001E0DA2 /* ProductDetailView.swift */; };
 		BF15F00F2BD1DDCE001E0DA2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F00E2BD1DDCE001E0DA2 /* Product.swift */; };
 		BF15F0122BD1DF5C001E0DA2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F0112BD1DF5C001E0DA2 /* APIService.swift */; };
+		BFC8D3622BD707A2006640D8 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */; };
 		BFC8D3662BD71084006640D8 /* Installments.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3652BD71084006640D8 /* Installments.swift */; };
 		BFC8D3712BD736FE006640D8 /* products_one_item.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3702BD736FE006640D8 /* products_one_item.json */; };
 		BFC8D3762BD80922006640D8 /* product_preview.json in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D3752BD80922006640D8 /* product_preview.json */; };
@@ -30,6 +31,7 @@
 		BF15F00B2BD1D7A0001E0DA2 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		BF15F00E2BD1DDCE001E0DA2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		BF15F0112BD1DF5C001E0DA2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockURLProtocol.swift; path = MLStoreTests/MockURLProtocol.swift; sourceTree = SOURCE_ROOT; };
 		BFC8D3652BD71084006640D8 /* Installments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installments.swift; sourceTree = "<group>"; };
 		BFC8D3702BD736FE006640D8 /* products_one_item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products_one_item.json; sourceTree = "<group>"; };
 		BFC8D3752BD80922006640D8 /* product_preview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product_preview.json; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				BF15F0112BD1DF5C001E0DA2 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BFC8D3602BD70786006640D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
