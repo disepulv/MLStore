@@ -11,6 +11,7 @@
 		BF15F00C2BD1D7A0001E0DA2 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F00B2BD1D7A0001E0DA2 /* ProductDetailView.swift */; };
 		BF15F00F2BD1DDCE001E0DA2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F00E2BD1DDCE001E0DA2 /* Product.swift */; };
 		BF15F0122BD1DF5C001E0DA2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F0112BD1DF5C001E0DA2 /* APIService.swift */; };
+		BF15F0152BD2C9CF001E0DA2 /* ProductListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15F0142BD2C9CF001E0DA2 /* ProductListCellView.swift */; };
 		BFC8D3622BD707A2006640D8 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */; };
 		BFC8D3662BD71084006640D8 /* Installments.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3652BD71084006640D8 /* Installments.swift */; };
 		BFC8D3692BD726D8006640D8 /* ProductsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */; };
@@ -32,6 +33,7 @@
 		BF15F00B2BD1D7A0001E0DA2 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		BF15F00E2BD1DDCE001E0DA2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		BF15F0112BD1DF5C001E0DA2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BF15F0142BD2C9CF001E0DA2 /* ProductListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCellView.swift; sourceTree = "<group>"; };
 		BFC8D3612BD707A2006640D8 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockURLProtocol.swift; path = MLStoreTests/MockURLProtocol.swift; sourceTree = SOURCE_ROOT; };
 		BFC8D3652BD71084006640D8 /* Installments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installments.swift; sourceTree = "<group>"; };
 		BFC8D3682BD726D8006640D8 /* ProductsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewModel.swift; sourceTree = "<group>"; };
