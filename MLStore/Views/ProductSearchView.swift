@@ -14,7 +14,7 @@ struct ProductSearchView: View {
     
     var body: some View {
         VStack {
-            TextField("Product name or description", text: $query)
+            TextField(Constants.Search.searchLabel, text: $query)
                 .multilineTextAlignment(.center)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .accessibility(identifier: "searchField")
@@ -22,7 +22,7 @@ struct ProductSearchView: View {
             Button(action: {
                 navigationState.routes.append(.products(query: query))
             }, label: {
-                Text("Search")
+                Text(Constants.Search.searchButton)
                     .frame(maxWidth: .infinity)
                     .frame(height: 35)
             })
@@ -34,7 +34,7 @@ struct ProductSearchView: View {
             disabledButton = query.count == 0
         })
         .padding()
-        .navigationTitle("Search")
+        .navigationTitle(Constants.Search.searchTitle)
     }
 }
 

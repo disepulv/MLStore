@@ -42,7 +42,7 @@ public class MLAPIService: APIService {
         }
 
         url.append(queryItems: [URLQueryItem(name: "q", value: query)])
-        if !sort.isEmpty {
+        if sort.isNotEmpty {
             url.append(queryItems: [URLQueryItem(name: "sort", value: sort)])
         }
 

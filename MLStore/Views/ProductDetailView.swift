@@ -73,7 +73,7 @@ struct ProductDetailView: View {
                         .clipShape(Circle())
 
                         ShareLink(item: URL(string: product.permalink ?? "")!,
-                                  subject: Text("Mira este producto que encontré"),
+                                  subject: Text(Constants.ProductDetail.shareTitleLabel),
                                   message: Text(product.title)) {
                             Image(systemName: "square.and.arrow.up")
                                 .padding(10)
@@ -102,14 +102,14 @@ struct ProductDetailView: View {
 
                 VStack {
                     Button(action: buyProduct, label: {
-                        Text("Comprar ahora")
+                        Text(Constants.ProductDetail.buyNowLabel)
                             .frame(maxWidth: .infinity)
                             .frame(height: 35)
                     })
                     .buttonStyle(.borderedProminent)
 
                     Button(action: addToCart, label: {
-                        Text("Agregar al carrito")
+                        Text(Constants.ProductDetail.addToCartLabel)
                             .frame(maxWidth: .infinity)
                             .frame(height: 35)
                     })
@@ -118,7 +118,7 @@ struct ProductDetailView: View {
             }
         }
         .padding()
-        .navigationTitle("Detail")
+        .navigationTitle(Constants.ProductDetail.detailTitle)
     }
 
     func buyProduct() {
